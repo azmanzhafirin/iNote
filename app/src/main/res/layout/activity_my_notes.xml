@@ -17,16 +17,9 @@
 
     <ListView
         android:id="@+id/listViewNotes"
-        android:layout_width="361dp"
-        android:layout_height="398dp"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="97dp" />
+        android:layout_width="384dp"
+        android:layout_height="446dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="clear all"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="7dp" />
 </android.support.constraint.ConstraintLayout>

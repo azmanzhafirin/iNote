@@ -23,7 +23,6 @@
             android:name=".NewNoteActivity"
             android:theme="@style/AppTheme.SlidrActivityTheme" />
         <activity android:name=".MyNotes" />
-        <activity android:name=".home"></activity>
     </application>
 
 </manifest>
